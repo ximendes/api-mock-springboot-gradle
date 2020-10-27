@@ -28,8 +28,8 @@ Foram criados testes para garantir que as validações e regras estejam funciona
 Para rodar esse projeto:
 
 ```
-$ git clone https://github.com/ximendes/docker-compose-wildfly-postgresdb.git
-$ cd transaction-app
+$ git clone https://github.com/ximendes/api-mock-springboot-gradle.git
+$ cd api-mock-springboot-gradle
 $ docker-compose up -d
 ```
 
