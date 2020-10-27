@@ -26,11 +26,14 @@ Foram criados testes para garantir que as validações e regras estejam funciona
 
 ## Como Executar
 Para rodar esse projeto:
-
 ```
 $ git clone https://github.com/ximendes/api-mock-springboot-gradle.git
 $ cd api-mock-springboot-gradle
 $ docker-compose up -d
+```
+Caso queira acompanhar os logs para saber se a aplicação concluiu o deploy
+```
+$ docker-compose logs -f
 ```
 
 Para ver se tudo funciona como o esperado, acesse: http://localhost:8080/1000/transacoes/2020/1
