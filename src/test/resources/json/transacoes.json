@@ -1,0 +1,128 @@
+ [
+    {
+      "id": 1,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-01-01T12:54:18.610Z",
+      "valor": 100,
+      "duplicated": false
+    },
+
+    {
+      "id": 13,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-01-01T12:54:18.610Z",
+      "valor": 100,
+      "duplicated": true
+    },
+
+    {
+      "id": 2,
+      "idUsuario": 1000,
+      "descricao": "descricao 2",
+      "data": "2020-02-01T12:54:18.610Z",
+      "valor": 110,
+      "duplicated": false
+    },
+
+    {
+      "id": 14,
+      "idUsuario": 1000,
+      "descricao": "descricao 2",
+      "data": "2020-02-01T12:54:18.610Z",
+      "valor": 110,
+      "duplicated": true
+    },
+
+    {
+      "id": 3,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-03-01T12:54:18.610Z",
+      "valor": 120,
+      "duplicated": false
+    },
+    {
+      "id": 4,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-04-01T12:54:18.610Z",
+      "valor": 130,
+      "duplicated": false
+    },
+    {
+      "id": 5,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-05-01T12:54:18.610Z",
+      "valor": 140,
+      "duplicated": false
+    },
+    {
+      "id": 6,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-06-01T12:54:18.610Z",
+      "valor": 150,
+      "duplicated": false
+    },
+    {
+      "id": 7,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-07-01T12:54:18.610Z",
+      "valor": 160,
+      "duplicated": false
+    },
+    {
+      "id": 8,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-08-01T12:54:18.610Z",
+      "valor": 170,
+      "duplicated": false
+    },
+    {
+      "id": 9,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-09-01T12:54:18.610Z",
+      "valor": 180,
+      "duplicated": false
+    },
+    {
+      "id": 10,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-10-01T12:54:18.610Z",
+      "valor": 190,
+      "duplicated": false
+    },
+    {
+      "id": 11,
+      "idUsuario": 1000,
+      "descricao": "descricao 1",
+      "data": "2020-11-01T12:54:18.610Z",
+      "valor": 200,
+      "duplicated": false
+    },
+    {
+      "id": 12,
+      "idUsuario": 1000,
+      "descricao": "descricao 12",
+      "data": "2020-12-01T12:54:18.610Z",
+      "valor": 210,
+      "duplicated": false
+    },
+    {
+      "id": 15,
+      "idUsuario": 1000,
+      "descricao": "descricao 12",
+      "data": "2020-12-01T12:54:18.610Z",
+      "valor": 210,
+      "duplicated": true
+    }
+  ]
+
+
