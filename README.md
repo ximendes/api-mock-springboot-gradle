@@ -25,7 +25,9 @@ Os dados de transações foram mockados utilizando um arquivo Json que está loc
 Foram criados testes para garantir que as validações e regras estejam funcionando como o esperado.
 
 ## Como Executar
-Para rodar esse projeto:
+O projeto rodando está em https://mocktransaction.herokuapp.com/1000/transacoes/2020/1
+
+Caso queira baixar e rodar esse projeto:
 ```
 $ git clone https://github.com/ximendes/api-mock-springboot-gradle.git
 $ cd api-mock-springboot-gradle
