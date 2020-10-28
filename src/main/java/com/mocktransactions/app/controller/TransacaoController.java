@@ -34,7 +34,7 @@ public class TransacaoController {
         return transacaoService.find(idUsuario, ano, mes);
     }
 
-    private void validarRequisicao(Long id, int ano, int mes) {
-        new ValidacaoRequest().setId(id).setMes(mes).setAno(ano).validar();
+    private void validarRequisicao(Long idUsuario, int ano, int mes) {
+        new ValidacaoRequest().setIdUsuario(idUsuario).setMes(mes).setAno(ano).validar();
     }
 }

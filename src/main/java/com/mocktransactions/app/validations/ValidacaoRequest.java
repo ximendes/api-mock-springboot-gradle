@@ -4,12 +4,12 @@ import com.mocktransactions.app.exception.ValidacaoException;
 
 public class ValidacaoRequest {
 
-    private Long id;
+    private Long idUsuario;
     private int mes;
     private int ano;
 
-    public ValidacaoRequest setId(Long id) {
-        this.id = id;
+    public ValidacaoRequest setIdUsuario(Long idUsuario) {
+        this.idUsuario = idUsuario;
         return this;
     }
 
@@ -30,7 +30,7 @@ public class ValidacaoRequest {
     }
 
     private void validarId() {
-        if (this.id < 1000 || this.id > 100000000) {
+        if (this.idUsuario < 1000 || this.idUsuario > 100000000) {
             exception("informe um id de usuário entre 1.000 e 100.000.000");
         }
     }
