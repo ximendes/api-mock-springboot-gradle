@@ -1,12 +1,9 @@
 package com.mocktransactions.app.entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
 import java.io.Serializable;
-import java.time.ZonedDateTime;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -16,18 +13,10 @@ import java.time.ZonedDateTime;
 public class Transacao implements Serializable {
 
     private Long id;
-
-    @Min(10)
-    @Max(60)
     private String descricao;
-
     private Long idUsuario;
-
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSX")
-    private ZonedDateTime data;
-
+    private LocalDateTime data;
     private Integer valor;
-
     private boolean duplicated;
 
     public int getMes(){
