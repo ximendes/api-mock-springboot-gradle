@@ -22,8 +22,6 @@ public class JsonReader {
         Usuario usuario = new Usuario();
         ObjectMapper mapper = new ObjectMapper();
 
-        mapper.configure(ADJUST_DATES_TO_CONTEXT_TIME_ZONE, false);
-        mapper.registerModule(new JavaTimeModule());
         TypeReference<Usuario> typeReference = new TypeReference<Usuario>() {
         };
         InputStream resourceAsStream = TypeReference.class.getResourceAsStream(USUARIO_JSON);
