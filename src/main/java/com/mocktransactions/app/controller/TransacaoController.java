@@ -35,6 +35,9 @@ public class TransacaoController {
     }
 
     private void validarRequisicao(Long idUsuario, int ano, int mes) {
-        new ValidacaoRequest().setIdUsuario(idUsuario).setMes(mes).setAno(ano).validar();
+        new ValidacaoRequest().setIdUsuario(idUsuario)
+                              .setMes(mes)
+                              .setAno(ano)
+                              .validar();
     }
 }

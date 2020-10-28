@@ -35,17 +35,17 @@ class TransacaoServiceImplTest {
         List<TransacaoDto> transacoes = service.find(1000L, 2020, 1);
         assertNotNull(transacoes);
         assertEquals(2, transacoes.size());
-        assertFalse(transacoes.stream().allMatch(TransacaoDto::isDuplicated));
-        assertTrue(transacoes.stream().anyMatch(TransacaoDto::isDuplicated));
+        assertEquals(1, transacoes.stream().filter(TransacaoDto::isDuplicated).count());
+        assertEquals(1, transacoes.stream().filter(t -> !t.isDuplicated()).count());
     }
 
     @Test
     public void deveRetornarTransacoesDuplicadaFeveiro(){
         List<TransacaoDto> transacoes = service.find(1000L, 2020, 2);
         assertNotNull(transacoes);
-        assertEquals(2, transacoes.size());
-        assertFalse(transacoes.stream().allMatch(TransacaoDto::isDuplicated));
-        assertTrue(transacoes.stream().anyMatch(TransacaoDto::isDuplicated));
+        assertEquals(3, transacoes.size());
+        assertEquals(1, transacoes.stream().filter(TransacaoDto::isDuplicated).count());
+        assertEquals(2, transacoes.stream().filter(t -> !t.isDuplicated()).count());
     }
 
     @Test
@@ -53,7 +53,7 @@ class TransacaoServiceImplTest {
         List<TransacaoDto> transacoes = service.find(1000L, 2020, 12);
         assertNotNull(transacoes);
         assertEquals(2, transacoes.size());
-        assertFalse(transacoes.stream().allMatch(TransacaoDto::isDuplicated));
-        assertTrue(transacoes.stream().anyMatch(TransacaoDto::isDuplicated));
+        assertEquals(1, transacoes.stream().filter(TransacaoDto::isDuplicated).count());
+        assertEquals(1, transacoes.stream().filter(t -> !t.isDuplicated()).count());
     }
 }

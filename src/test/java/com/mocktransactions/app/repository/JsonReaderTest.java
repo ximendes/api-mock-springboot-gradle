@@ -21,6 +21,6 @@ class JsonReaderTest {
         List<Transacao> transacoes = JsonReader.readTransacoesJson();
         assertNotNull(transacoes);
         assertFalse(transacoes.isEmpty());
-        assertEquals(15, transacoes.size());
+        assertEquals(18, transacoes.size());
     }
 }
