@@ -47,7 +47,7 @@ public class ValidacaoRequest {
         }
     }
 
-    public void exception(String mensagem) {
+    private void exception(String mensagem) {
         throw new ValidacaoException(mensagem);
     }
 }
