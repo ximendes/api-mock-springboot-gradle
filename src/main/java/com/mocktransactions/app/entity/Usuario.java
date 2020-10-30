@@ -16,4 +16,8 @@ public class Usuario implements Serializable {
 
     private Long id;
     private List<Transacao> transacoes;
+
+    public Usuario(Long id) {
+        this.id = id;
+    }
 }
